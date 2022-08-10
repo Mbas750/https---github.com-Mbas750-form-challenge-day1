@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #c6d9d7;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 40px;
+}
+
+.container{
+    background: #fff;
+    margin: 0 40px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow:  0 1px 5px rgba(104, 104, 104, 0.8);
+    height: 600px;
+}
+
+.left-box {
+    /* margin-right: 20px; */
+    background: #2d665f;
+    padding: 30px;
+    color: #fff;
+    box-shadow: 0 1px 5px rgba(78, 124, 92, 0.8);
+    width: 50%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.txt {
+    margin: 80px 20px;
+    text-align: end;
+}
+.txt h1 {
+    margin-bottom: 30px;
+}
+.txt p {
+    line-height: 1.4;
+    column-rule-color: #bbb;
+}
+
+/* The right side of the container */
+
+.right-box {
+    padding: 30px;
+    color: #333;
+    background: #f2f5f4;
+    width: 50%;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.top-bar button {
+    border: none;
+    background: #fff;
+    padding: 0.6rem 1.2rem;
+    white-space: nowrap;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);margin-left: 8px;
+}
+.top-bar button a {
+    color: #2d665f;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.form-control {
+    position: relative;
+    margin: 15px 0;
+    width: 80%;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px rgb(189, 187, 187) solid;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #2d665f;
+    
+}
+
+.form-control input[type='text'] {
+    padding-left: 30px;
+}
+.form-control input[type='password'] {
+    padding-left: 30px;
+}
+
+
+.form-control input:focus, .form-control input:valid {
+    outline: none;
+    border-color: #2d665f;
+}
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    padding-left: 30px;
+}
+.form-control img {
+    position: absolute;
+    top: 15px;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    background: #2d665f;
+    padding: 0.6rem 1.3rem;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 1px 5px rgba(78, 124, 92, 0.8);
+    margin: 20px 0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+} 
+
+.icons img {
+    padding: 0 20px;
+}
